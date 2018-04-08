@@ -8,7 +8,7 @@ In order to use this, you must change/insert a few bits of code. Don't worry tho
 ## Adding a review
 In the current version, articles must be added in the following manner:
 1. Add title of the article to your database, this must not contain any hyphens. Whatever you put in this field will be seen in the webpage's URL when the article is open.
-2. Create a folder in the articles directory and name it the 'id' and 'title' fields from the database, separating them by a hyphen. Ex. *5 - Men in Black II*. See below for instructions for database table.
+2. Create a folder in the articles directory and name it the 'id' and 'title' fields from the database, separating them by a hyphen. Ex. *5 - men in black ii*. See below for instructions for database table.
 3. Create a file titled *article* (no extension) and fill in the contents according to the review syntax listed below.
 
 ## Review syntax
@@ -24,7 +24,7 @@ title: Men in Black II
 ## What does the database table look like?
 I'm using MySQL for this and the columns in the table that store the article information are structured as follows:
 1. **id** - unique value that auto-increments with each new article added.
-2. **title** - what you wish to appear appended to the URL when the article is loaded, for example, a value of *Men in Black II* will appear in the URL as *men-in-black-ii*.
+2. **title** - what you wish to appear appended to the URL when the article is loaded, for example, a value of *men in black ii* will appear in the URL as *men-in-black-ii*. Use only numbers and lowercase letters.
 3. **date** - timestamp that fills in current date automatically when row is created, serves as a sort of date-of-article-posted value.
 
 Note that 'title' is the only column here that you will be entering manually for each review.
