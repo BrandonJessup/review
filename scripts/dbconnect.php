@@ -1,5 +1,6 @@
 <?php
 
+// Put your database connection info in the following lines.
 define ("DB_HOST"       , "");
 define ("DB_NAME"       , "");
 define ("DB_USERNAME"   , "");

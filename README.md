@@ -3,7 +3,7 @@ The goal here is to make an article-based generic review site template that is s
 
 ## Code you must edit
 In order to use this, you must change/insert a few bits of code. Don't worry though, what you need to do in each place **_should_** be outlined for you clearly.
-1. **scripts/dbconnect.php** lines 3 to 6 - Fill in the info to connect to your database.
+1. **scripts/dbconnect.php** lines 4 to 7 - Fill in the info to connect to your database.
 
 ## Adding a review
 In the current version, articles must be added in the following manner:
